@@ -80,7 +80,7 @@
                     var marker1 = new google.maps.Marker({
                         position: dhillaftc,
                         map: map,
-                        title: 'Asrama',
+                        title: 'Dhilla Fotocopy',
                         icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
                         draggable: true,
                         animation: google.maps.Animation.DROP
