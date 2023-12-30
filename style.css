@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica;
+}
+#container{
+    width: 168px;
+    margin: 0 auto;
+}
+#header{
+    font-size: 45px;
+    font: bold 48px Arial;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #008B8B;
+    height: 160px;
+}
+#menu {
+    background-color: #DCDCDC;
+    color: #8B0000;
+    font-style: Comic;
+    font-size: 28px;
+}
+#primary_nav_wrap content {
+    background-color: #D3D3D3;
+    width: 100px;
+    float: left;
+}
+#footer {
+    background-color: #000000;
+    background-position: center;
+    width: 1680px;
+    height: 40px;
+    float: left;
+}
