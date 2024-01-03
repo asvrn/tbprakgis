@@ -43,7 +43,7 @@
         function initMap() {
 
             var elbaf = {
-                lat: 0.89481,
+                lat: -0.89481,
                 lng: 100.34546
             };
             map = new google.maps.Map(document.getElementById('map'), {
