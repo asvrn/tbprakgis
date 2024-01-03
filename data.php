@@ -1,5 +1,5 @@
 <?php
-$connection = pg_connect("host='localhost' port='5432' user='postgres' password='12345678' dbname='db_prakgis'");
+$connection = pg_connect("host='localhost' port='5432' user='postgres' password='12345678' dbname='db_tbprakgis'");
 
 $sql = "SELECT
           gid,
