@@ -3,7 +3,7 @@ $connection = pg_connect("host='localhost' port='5432' user='postgres' password=
 
 $sql = "SELECT
           gid,
-          -- id_banguna,
+          nama,
           ST_AsGeoJSON(geom) AS geometry,
           ST_Y(ST_CENTROID(geom)) AS lat,
           ST_X(ST_CENTROID(geom)) AS lng
@@ -25,7 +25,7 @@ if ($query === false) {
                 'geometry' => json_decode($row['geometry'], true),
                 'properties' => array(
                     'gid' => $row['gid'],
-                    // // 'id_banguna' => $row['id_banguna'],
+                    'nama' => $row['nama'],
                     'center' => array(
                         'lat' => $row['lat'],
                         'lng' => $row['lng']

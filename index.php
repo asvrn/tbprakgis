@@ -42,13 +42,13 @@
 
         function initMap() {
 
-            var dhillaftc = {
-                lat: -0.9260781,
-                lng: 100.4618709
+            var elbaf = {
+                lat: 0.89481,
+                lng: 100.34546
             };
             map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 15,
-                center: dhillaftc
+                center: elbaf
             });
 
             // Membuat InfoWindow untuk peta
@@ -78,7 +78,7 @@
                     });
 
                     var marker1 = new google.maps.Marker({
-                        position: dhillaftc,
+                        position: elbaf,
                         map: map,
                         title: 'Dhilla Fotocopy',
                         icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
