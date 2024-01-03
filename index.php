@@ -14,7 +14,7 @@
 
 <body>
     <div class="container">
-        <div id="header">Peta Fotocopy di Kecamatan Padang Utara </div>
+        <div id="header">Peta Photocopy di Kecamatan Padang Utara </div>
         <div id="menu">
             <a href="index.html">Home</a>
             <a href="map.html">koneksi</a>
